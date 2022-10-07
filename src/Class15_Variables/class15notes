@@ -1,0 +1,43 @@
+Types of variables with respect to their scope:
+
+ 3 Types of variables ^
+
+  1.) Local Variables - a variable that is created inside a method, loop, switch cases,if,etc (inside a block of code)
+                                                                                        {}
+       Up-side of local variables :
+
+                  -less time in the memory
+                  -exist for a very short amount of time in the memory
+
+       Down-Side of local variables :
+
+                   -does not work outside of {}
+                   -scope is very limited
+
+
+  2.) Instance Variables - a variable that is declared inside a class but outside of block of code
+                          - need objects
+
+         Up-Side of Instance variables
+
+                    -can use Instance variable inside any block of code that is inside that class
+
+         Down-side of Instance variables
+
+                    -occupy the memory for longer than a LOCAL variable
+
+            WHEN TO USE? --- when we need to share a value between  2 or more methods
+                         --- planning to create multiple objects of a class, and it is possible that all the objects
+                            can have a different value for that variable
+
+  3.) Static Variables - an instance variable with STATIC keyword
+
+        Up-Side of Static variables
+
+                   - we cab share data across the objects with the help of static variable
+
+         Downside of Static variable
+
+                   -they occupy the memory for the longest period
+
+         WHEN TO USE--- when we want to share something across all the methods

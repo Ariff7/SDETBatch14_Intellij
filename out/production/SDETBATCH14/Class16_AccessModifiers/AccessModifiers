@@ -1,0 +1,32 @@
+Access Modifiers -->> are keywoards which control the access of fields or methods or the class itself
+                 -->> only applicable to instance or static variables
+
+4 access levels
+
+3 access modifier keywoards - private, protected, public
+
+private-->> most restricted one. If we use Private Keyboard with any variable or method.
+           -ONLY IN THAT CLASS
+
+          When to use?? - ALL THE TIME
+
+          Up-Side -->> security(Secured
+
+default-->> not a keyword, when We DONT USE private or public, JAVA assigns defualt access level to those
+            variables or methods
+            --SAME CLASS && SAME PACKAGE
+
+Protected-->> when applied, entities can be ACCESSED OUT OF THE PACKAGE but ONLLYY on the class that have
+                parent-child (Inheritance) relationship
+
+
+public-->> most unrestricted access modifier. Once used with a variable or method, we can access that variable
+          --ANYWHERE IN OUR PROJECT
+
+Protected
+
+
+
+default-- throughout classes in the same package
+public-- throughout packages in the same project
+private --only a single class
