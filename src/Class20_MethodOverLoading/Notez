@@ -1,0 +1,15 @@
+MethodOverLoading:
+        -allows us to create multiple methods in a class with the same name.
+           -with different parameters
+
+Why should we create multiple methods with same name??
+        -gives the End User flexibility
+        -End user can call the same method with different parameters to get same or different results
+
+How do we overload a method??
+      1st way-- by passing different number of parameters.
+      2nd way-- by changing the data type
+      3rd way-- changing the sequence (order) of parameters
+
+Syntax to overload a method?
+
