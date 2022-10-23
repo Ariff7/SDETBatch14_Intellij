@@ -4,21 +4,21 @@ public class Teacher {
 
     //fields && instance variables
 
-    String name, lastName;
-    String subject;
+    public String name, lastName;
+    protected String subject;
     int experience;
-    double salary;
-    static String school;
+    private double salary;
+    public static String school;
 
     //constructor
-    Teacher(String name, String lastName){
+   public Teacher(String name, String lastName){
         this.name=name;    //this. refers to the current object: instance variables & instance methods   - //local assigned to instance
         this.lastName=lastName;
 
 
     }
 
-    Teacher(String name, String lastName, String subject){
+    public Teacher(String name, String lastName, String subject){
         this(name, lastName);      //this()-refers to the current obkect : current class constructor
         this.subject=subject;
     }
@@ -30,22 +30,22 @@ public class Teacher {
 
     //methods
 
-    static void work(){
+   public  static void work(){
         System.out.println("All teachers work at "+school);
     }
 
-    void print(){
+     public void print(){
         System.out.println("Teacher name is "+name+" "+lastName);
     }
 
-    void teach(){
+    public void teach(){
         this.print();
         System.out.println(name+" teaches "+ subject);
     }
 
     //calculate method based on experience and return result;
 
-    double bonus(){
+    private double bonus(){
         if(experience<5){
             return 3;
         }else{
@@ -58,7 +58,7 @@ public class Teacher {
 
 class School{
     public static void main(String[] args) {
-        Teacher t1=new Teacher("Arif","Aliyev");
+        Teacher t1=new Teacher("Arif","Aliyev");   //refernce variable
 
 
         Teacher t2=new Teacher("Perry", "Davidson", "math");
@@ -70,6 +70,10 @@ class School{
 
         Teacher.school="Syntax";
         Teacher.work();
+
+        t3.print();
+        t3.teach();
+       // t3.getBonus(); //-private, not accessiable
 
     }
 }

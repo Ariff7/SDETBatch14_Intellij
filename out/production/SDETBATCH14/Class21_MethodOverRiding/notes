@@ -1,0 +1,14 @@
+Method OverRiding -  ALLOWS us to have same name methods in parent and child classes with its own implemention
+
+Why should we OverRide a method
+
+            -Lets say we are inherriteting from a Parent class that has 10 methods. WE like(need) 8 of them,  (EXCEPT PRIVATE methods and constructors)
+            and want to reuse those methods but don't need the other 2, we want to provide implementation in a different way
+                                                       ^^^
+                                              We can use method overRiding those methods
+            -also helps us achieve polymorphism
+
+What is Syntax to override a method:
+
+                  1.)First there must be a parent-child relationship
+                  2.) we simply redefine the method in the child class
