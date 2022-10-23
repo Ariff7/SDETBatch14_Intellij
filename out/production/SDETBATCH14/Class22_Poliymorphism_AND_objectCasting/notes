@@ -1,0 +1,23 @@
+
+Type Casting in objects:
+       -Storing the object of a child class in a variable of parent type
+
+ WHY SHOULD WE CAST OBJECTS??
+       -we can start storing the objects of child classes in an array of type parent
+
+ Syntax for type casting in objects
+         -same as primitive type casting
+         -ex -animal class and if animal class has a child class Cat, we can do
+                                                                        Animal animal=new Cat();
+                                                                        parent name[] arr={new childclass name}
+
+Polymorphism : the abililty of a method to take oon many forms based on the objects or the parameters that we pass to the method
+              -polymorphism in Java allows us to perform the same action in many different ways.
+
+2 types of Polymorphism-
+
+         1.)Compile time/static/early binding
+             -WHEN WE USE METHOD overloading to acheive polymorphism
+         2.)run time/dynamic/late binding
+              -WHEN WE USE METHOD OVERRIDING to acheive polymorpshism
+

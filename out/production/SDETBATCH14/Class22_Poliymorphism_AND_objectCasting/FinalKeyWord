@@ -1,0 +1,8 @@
+Final keyword : jsut like any other keyword in java like (class, package, void,etc);
+
+3 main uses of final keyword-
+
+       1.) if we use final keyword in a class, no other class can inherit from that class.
+       2.) If we use final keyword with a method name, no child class can override that method
+       3.)If we use final keyword in a field, once a value has been assigned to that field, no one can change its values afterward
+            (ex: Int price=20;)
