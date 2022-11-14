@@ -1,0 +1,29 @@
+Maps in Java:
+   -Maps are datastructures that allow us to store key value pairs
+
+ Why should we use Maps?
+    -Wgenever we have to store key value pairs instead of using arrays or 2D arrays or ArrayList we should use Maps because
+    they provide very good performance and have built-in methods to process the data
+
+ What is the syntax pf Maps?
+    Map<DataTypeOfKey, DataTypeOfValue> anyName=new Mapclass<>():
+ ex: HashMap<String, Double> friuts=new HashMap<>():
+
+ Types of Maps : (over 300)
+   1.)HashMap - mostly wide used,  fastest, no duplicates , prints in no order, occupies less memory
+               -always use HashMap if there are no requirements for insertion or sorting
+
+   2.)LinkedHashMap --keeps the insertion order but takes a little bit more memory then HashMap and is a little slower
+
+
+   3.)TreeMap   -- sorts the data in natural order(a-z)(0-9) but insertion is very slow , it takes more memory to keep
+                  the data in sorted order
+
+
+FileHandling:
+    Reading writing data to files with the help of java is called file handling.
+Steps to read data from any files on any computer:
+    1)location of file on our computer.
+    2) we need to go to that location.
+    3) we need a software that can read and write data to that file for exmaple we need Microsoft Excel if we
+    want to work with xlsx files.

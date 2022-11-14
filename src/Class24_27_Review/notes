@@ -1,0 +1,53 @@
+Collection FrameWork-
+      -a set of classes and interfaces that help us store and manipulate data.
+
+Why we need collections framework
+  1.)Flexibility
+  2.) Ready-made Methods
+  3.) Same classes and methods ccan be used with different  dataType
+
+ Some common classes -
+  1.)ArrayList
+  2.)LinkedList
+
+  3.)HashSet - not in order
+  4.)LinkedHashSet - insertion order
+  5.)TreeSet
+
+common Interfaces
+    1.)List  - List like ArrayList and LinkedList maintains the insertion order
+             -they allow duplicates
+
+    2.)Set  - They Do not allow duplicate values
+
+    ArrayList vs LinkedList
+      ArrayList -- When we need to retrieve the data ( get())because it is very fast to retrieve index based data as underlying datastructures is an array
+                -- Store data in consecutive order
+
+      LinkedList -- When we need to we manipulate the data (Adding, removing shifting) ( add(), remove() ,
+
+
+  HashSet vs LinkedHastSet vs TreeSet:
+
+        HashSet-it the fastest and it requires less memory but not in order
+        LinkedHashSet - it is in order but not as fast
+        TreeSet- Natural order (Ex: Phonebook,Dictionary)  basically A-Z , 0- infinity)
+
+//NOT APART OF COLLECTION FRAMEWORK
+Maps-- Whenever we have to storey key value pairs (Ex: Items and prices) we should use Maps
+
+3 types of Maps
+
+       HashMap: does not retain order, but it is the fastest
+       LinkedHashMap: It retains the order but it is a little slower than Hash
+       TreeMap : Sort the data chrnoglgical but it is the slowest
+
+
+
+  Note: some coding concepts interview
+    if else
+    loops
+    arrays
+    String class
+    maps
+    ArrayList
