@@ -1,0 +1,26 @@
+HashTable:
+   HashTable is previous version of HashMap. HashTable is thread safe. It uses synchronization to achieve
+   thread sadety and because of this it is slow as compared to hashMap.
+
+Why should we NOT use HashTable.
+   As a tester it is very rare that we will be writing multithreaded code and if don't write multithreaded
+   code but still use HashTable it will make our code slow for no benefit
+
+
+FileHanding in java:
+    -reading, writing, and manipulating(use) files
+
+Why we should learn about file handling?
+     1.) We dont store sensitive data inside the code, it might get exposed when we push the code to Github
+     2.) HardCoding the data or credentials in code is a very bad practice because for any reason if you have
+     to change the credentials or that data you will have to change it everywhere while will take lot of time
+     3.) When we have to perform Data Driven Testing, we use alot of data to perform this type of testing , it is not
+     feasible(possible to do easily or conveniently) to put all of that data in code
+
+Steps to Read from any file in java:
+     1.) First we need the location(path)
+     2.) Use a class to navigate to that location(for example FileInputStream)
+     3.) Use a special class that helps us read/write data to that special tyoe of file. for example::
+     for .properties file we use Properties , and for excel we use XSSFWorkbook
+
+
