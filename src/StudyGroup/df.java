@@ -1,35 +1,19 @@
 package StudyGroup;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class df {
     public static void main(String[] args) {
+        System.out.println("Hello world!");
+        System.out.println(reverse("I am a java Programmer"));
+        System.out.println(reverse("Syntax is Great"));
 
-       HashMap<String,String> info=new HashMap<>();
-        info.put("ONE","AAA");
-        info.put("TWO","BBB");
-        info.put("THREE","CCC");
-        info.put("FOUR","DDD");
-        info.put("FIVE","EEE");
+    }
+    public static String reverse(String strToRev){
+        int x =strToRev.indexOf(" ");
 
-        System.out.println("HashMap Before Replace : ");
-        for(Map.Entry<String,String>entry: info.entrySet()){
+        if(x==-1)
+            return strToRev;
 
-            System.out.println(entry.getKey()+ " : "+ entry.getValue());
-
-        }
-        System.out.println("------");
-        info.replace("THREE","ASEL");
-        info.replace("FIVE","SUMAIR");
-
-        System.out.println("HashMap After Replace : ");
-        for(Map.Entry<String,String>entry: info.entrySet()){
-
-            System.out.println(entry.getKey()+ " : "+ entry.getValue());
-
-        }
-
+        return reverse(strToRev.substring(x+1)+" "+ strToRev.substring(0,x));
 
     }
 }

@@ -17,7 +17,7 @@ class AreaManager{
     void calculateArea(double length){
         System.out.println(length*length);
     }
-    void calculateVolume(double length, double width, double height){
+    void calculateArea(double length, double width, double height){
         System.out.println(length*width*height);
     }
 
@@ -25,7 +25,7 @@ class AreaManager{
         AreaManager test=new AreaManager();
         test.calculateArea(5);
         test.calculateArea(5,5);
-        test.calculateVolume(2,2,2);
+        test.calculateArea(2,2,2);
     }
 
 

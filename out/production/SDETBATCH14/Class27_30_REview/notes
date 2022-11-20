@@ -24,3 +24,20 @@ Steps to Read from any file in java:
      for .properties file we use Properties , and for excel we use XSSFWorkbook
 
 
+Important concepts for your coding tests:
+if else conditions
+loops
+arrays
+String class methods
+ArrayList
+Maps
+
+important concepts for verbal interviews:
+OOPs
+for Frameworks:
+1) how Classes work for example how to create a class how to declare instance varibales how to use them inside
+methods
+2) Go through all the concepts of methods
+3) types of varibales like instance static(you will be using heavily)
+5) inheritance
+6) ArrayList and maps
