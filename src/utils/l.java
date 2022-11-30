@@ -9,8 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-public class ConfigReader {
-
+public class l {
     public static ArrayList<LinkedHashMap<String, String>> read(String path)  {
 
         XSSFWorkbook excel=null;
@@ -19,16 +18,16 @@ public class ConfigReader {
         try{
             // Reads the data from HardDrive brings it to RAM in the raw form 10101010101010
             // In simple words we can say computer has navigated to that file
-            fis = new FileInputStream(path);
+             fis = new FileInputStream(path);
             // this class converts the raw bytes to Excel format or in simple words it is that special software
             // that helps us read and write data to an Excel file.
-            excel = new XSSFWorkbook(fis);
+           excel = new XSSFWorkbook(fis);
             Sheet sheet = excel.getSheet("Sheet1");
             int noOfRow = sheet.getPhysicalNumberOfRows();
             // getting the first row so that we can use it as keys for our map
             Row headerRow = sheet.getRow(0);
             // the Map that will store the data for each row
-            excelData = new ArrayList<>(); // a list that can hold maps
+        excelData = new ArrayList<>(); // a list that can hold maps
 
             // A loop that goes through all the rows that contain the data.
             for (int rowNo = 1; rowNo < noOfRow; rowNo++) {
@@ -57,7 +56,7 @@ public class ConfigReader {
                     fis.close();
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+               e.printStackTrace();
             }
         }
 
@@ -67,5 +66,3 @@ public class ConfigReader {
         return excelData;
     }
 }
-
-

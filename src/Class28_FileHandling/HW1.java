@@ -17,8 +17,18 @@ public class HW1 {
 
 
         LinkedHashMap<Integer,String> building=new LinkedHashMap<>();
-        building.put(1,"Google");
-        building.put(1,"Google");
+        building.put(1,"Apple");
+        building.put(2,"Google");
+        building.put(3,"Amazon");
+        building.put(4,"Samsung");
+        building.put(5,"Micrsoft");
+        building.put(6,"Syntax");
+        building.put(7,"Apple");
+
+        System.out.println(building.size());
+        building.replace(4,"Google");
+        building.remove(7);
+        System.out.println("New floors of "+building);
 
 
     }

@@ -1,6 +1,6 @@
 package Interview_Questions;
 
-public class ReverseStringSentence {
+public class Replit226_ReverseStringSentence {
     public static void main(String[] args) {
         System.out.println(reverse("I am a java Programmer"));
         System.out.println(reverse("Syntax is Great"));

@@ -1,6 +1,6 @@
 package Interview_Questions;
 
-public class ReverseNumberWithMethod {
+public class Replit225_ReverseNumberWithMethod {
     public static void main(String[] args) {
 
         System.out.println(reverseInteger(654));

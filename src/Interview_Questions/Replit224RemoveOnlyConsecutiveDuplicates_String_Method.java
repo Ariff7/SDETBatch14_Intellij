@@ -2,7 +2,7 @@ package Interview_Questions;
 
 //input ["aabbcca"]-> output["abca"]
 
-public class RemoveOnlyConsecutiveDuplicates_String_Method {
+public class Replit224RemoveOnlyConsecutiveDuplicates_String_Method {
     public static void main(String[] args) {
         System.out.println(removeConsecutiveDuplicates("aabbcca"));
     }

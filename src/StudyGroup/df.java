@@ -1,19 +1,25 @@
 package StudyGroup;
 
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class df {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println(reverse("I am a java Programmer"));
-        System.out.println(reverse("Syntax is Great"));
 
-    }
-    public static String reverse(String strToRev){
-        int x =strToRev.indexOf(" ");
 
-        if(x==-1)
-            return strToRev;
+        Map<String,String>info=new LinkedHashMap<>();
+        info.put("Street","Patrick ST");
+        info.put("Suite","265");
+        info.put("City","Vienna");
+        info.put("Zip","22180");
+        info.put("Country","United State");
 
-        return reverse(strToRev.substring(x+1)+" "+ strToRev.substring(0,x));
+        Iterator<Map.Entry<String, String>> it = info.entrySet().iterator();
+        while(it.hasNext()){
+            Map.Entry<String, String> data = it.next();
+            System.out.println(data.getValue());
+        }
 
     }
 }
